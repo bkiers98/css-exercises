@@ -5,6 +5,58 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  margin-bottom: auto;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #eeeeee;
+}
+
+.header, 
+.footer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+  gap: 10px;
+  justify-content: center;
+}
+
+.right-links {
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+.content {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 img {
